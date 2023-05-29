@@ -26,9 +26,6 @@
     }
     ```
 
-
-
-
 # FOR DATA FETCHING #
 ## Data fetching fundamentals: ##
 `1.` Fetch data on the server using Server Components
