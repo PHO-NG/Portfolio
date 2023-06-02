@@ -7,8 +7,8 @@ export default function Logo() {
         <Image 
             src="/logo-white.png"
             className='bg-black my-5'
-            width={30}
-            height={30}
+            width={40}
+            height={40}
             alt="me"
             priority={true}
         />
