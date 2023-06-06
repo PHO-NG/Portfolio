@@ -11,9 +11,9 @@ export default function Navbar() {
         {/* CHANGE FONT WEIGHT TO LIGHT */}
           <h1 className='flex px-2 py-5 text-white place-content-center md:mb-0'>
             <Link href="/" className='px-2 font-extralight text-xl text-white/90 no-underline hover:text-white'>Home</Link>
-            <Link href="/" className='px-2 font-extralight text-xl text-white/90 no-underline hover:text-white'>Projects</Link>
-            <Link href="/" className='px-2 font-extralight text-xl text-white/90 no-underline hover:text-white'>Resume</Link>
-            <Link href="/" className='p-2 font-extralight text-xl -mt-2 text-white/90 no-underline hover:text-white hover:border-3 whitespace-nowrap border-2 border-orange'>Let's Chat</Link>
+            <Link href="/projects" className='px-2 font-extralight text-xl text-white/90 no-underline hover:text-white'>Projects</Link>
+            <Link href="/resume" className='px-2 font-extralight text-xl text-white/90 no-underline hover:text-white'>Resume</Link>
+            <Link href="/contact" className='py-1.5 px-3 font-extralight text-xl -mt-2 ml-3 text-white/90 no-underline hover:text-white hover:border-3 whitespace-nowrap border-4 border-orange'>Let's Chat</Link>
           </h1>
         </div>
     </nav>
